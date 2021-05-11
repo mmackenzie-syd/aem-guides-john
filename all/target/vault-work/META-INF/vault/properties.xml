@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>john Sites Project - All</comment>
+<entry key="cloudManagerTarget">all</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2021-05-11T07:17:38.289Z</entry>
+<entry key="groupId">com.adobe.aem.guides.john</entry>
+<entry key="name">aem-guides-john.all</entry>
+<entry key="description">All content package for john Sites Project</entry>
+<entry key="artifactId">aem-guides-john.all</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aem.guides.john</entry>
+</properties>

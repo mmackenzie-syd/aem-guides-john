@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Build-Jdk-Spec: 11
+Implementation-Title: john Sites Project - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.adobe.aem.guides.john:aem-guides-john.ui.apps:0.
+ 0.1-SNAPSHOT
+Content-Package-Description: UI apps package for john Sites Project
+Content-Package-Roots: /apps/john/clientlibs,/apps/john/components,/apps
+ /john/i18n
+Import-Package: com.adobe.aem.guides.john.core.models;version="[1.0.0,2.
+ 0.0)",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

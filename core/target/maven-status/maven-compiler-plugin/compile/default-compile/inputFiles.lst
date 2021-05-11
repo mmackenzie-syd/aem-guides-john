@@ -1,0 +1,10 @@
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/models/package-info.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/listeners/package-info.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/filters/LoggingFilter.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/servlets/package-info.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/filters/package-info.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/schedulers/SimpleScheduledTask.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/schedulers/package-info.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/models/HelloWorldModel.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/servlets/SimpleServlet.java
+/home/mmackenzie/test/aem-guides-john/core/src/main/java/com/adobe/aem/guides/john/core/listeners/SimpleResourceListener.java

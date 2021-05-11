@@ -1,0 +1,60 @@
+{
+  "id":"com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:user-aggregated-author.prod:0.0.1-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.adobe.aem.guides.john:aem-guides-john.core:0.0.1-SNAPSHOT",
+      "start-order":"20",
+      "feature-origins":"com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:0.0.1-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "org.apache.sling.commons.log.LogManager.factory.config~john":    {
+      "org.apache.sling.commons.log.pattern":"{0,date,yyyy-MM-dd HH:mm:ss.SSS} {4} [{3}] {5}",
+      "org.apache.sling.commons.log.names":[
+        "com.adobe.aem.guides.john"
+      ],
+      "org.apache.sling.commons.log.level":"error",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"true",
+      ":configurator:feature:origins":[
+        "com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:0.0.1-SNAPSHOT",
+        "com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:prod:0.0.1-SNAPSHOT"
+      ]
+    },
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~john":    {
+      "mobile.resourceTypes":[
+        "john/components/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators.",
+      ":configurator:feature:origins":[
+        "com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:author:0.0.1-SNAPSHOT"
+      ]
+    }
+  },
+  "assembled-features:ARTIFACTS|TRANSIENT":[
+    "com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:prod:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:author:0.0.1-SNAPSHOT"
+  ],
+  "content-packages:ARTIFACTS|true":[
+    "com.adobe.aem.guides.john:aem-guides-john.ui.apps:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.john:aem-guides-john.ui.config:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.john:aem-guides-john.ui.content:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem.guides.john:aem-guides-john.all:zip:cp2fm-converted:0.0.1-SNAPSHOT"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.adobe.aem.guides.john.core.filters",
+        "com.adobe.aem.guides.john.core.listeners",
+        "com.adobe.aem.guides.john.core.models",
+        "com.adobe.aem.guides.john.core.schedulers",
+        "com.adobe.aem.guides.john.core.servlets"
+      ],
+      "feature-origins":[
+        "com.adobe.aem.guides.john:aem-guides-john.analyse:slingosgifeature:0.0.1-SNAPSHOT"
+      ]
+    }
+  ]
+}

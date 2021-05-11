@@ -1,0 +1,7 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Tue May 11 17:17:46 AEST 2021
+prod=aem-guides-john.all-prod.json
+stage=aem-guides-john.all-stage.json
+author=aem-guides-john.all-author.json
+publish=aem-guides-john.all-publish.json
+(default)=aem-guides-john.all.json

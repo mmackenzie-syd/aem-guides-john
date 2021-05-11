@@ -1,0 +1,5 @@
+/home/mmackenzie/test/aem-guides-john/core/src/test/java/com/adobe/aem/guides/john/core/filters/LoggingFilterTest.java
+/home/mmackenzie/test/aem-guides-john/core/src/test/java/com/adobe/aem/guides/john/core/schedulers/SimpleScheduledTaskTest.java
+/home/mmackenzie/test/aem-guides-john/core/src/test/java/com/adobe/aem/guides/john/core/servlets/SimpleServletTest.java
+/home/mmackenzie/test/aem-guides-john/core/src/test/java/com/adobe/aem/guides/john/core/listeners/SimpleResourceListenerTest.java
+/home/mmackenzie/test/aem-guides-john/core/src/test/java/com/adobe/aem/guides/john/core/models/HelloWorldModelTest.java

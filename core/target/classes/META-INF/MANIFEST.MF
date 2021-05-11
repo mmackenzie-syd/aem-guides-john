@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Bundle-Category: john Sites Project
+Bundle-Description: Core bundle for john Sites Project
+Bundle-ManifestVersion: 2
+Bundle-Name: john Sites Project - Core
+Bundle-SymbolicName: aem-guides-john.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: com.adobe.aem.guides.john.core.filters;version="1.0";u
+ ses:="javax.servlet",com.adobe.aem.guides.john.core.listeners;version
+ ="1.0";uses:="org.osgi.service.event",com.adobe.aem.guides.john.core.
+ models;version="1.0";uses:="javax.annotation,org.apache.sling.api.res
+ ource,org.apache.sling.models.annotations,org.apache.sling.models.ann
+ otations.injectorspecific",com.adobe.aem.guides.john.core.schedulers;
+ version="1.0",com.adobe.aem.guides.john.core.servlets;version="1.0";u
+ ses:="javax.servlet,org.apache.sling.api,org.apache.sling.api.servlet
+ s"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.guides.
+ john.core.filters;version="[1.0,2)",com.adobe.aem.guides.john.core.li
+ steners;version="[1.0,2)",com.adobe.aem.guides.john.core.schedulers;v
+ ersion="[1.0,2)",com.adobe.aem.guides.john.core.servlets;version="[1.
+ 0,2)",javax.servlet;version="[2.6,3)",org.apache.commons.lang;version
+ ="[2.6,3)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.ap
+ i.request;version="[2.4,3)",org.apache.sling.api.resource;version="[2
+ .12,3)",org.apache.sling.api.servlets;version="[2.3,3)",org.apache.sl
+ ing.models.annotations;version="[1.5,2)",org.apache.sling.models.anno
+ tations.injectorspecific;version="[1.1,2)",org.apache.sling.settings;
+ version="[1.3,2)",org.osgi.service.event;version="[1.4,2)",org.slf4j;
+ version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.osgi.service.event.EventHandler";uses:="org.osgi.service.
+ event"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.guides.john.core.filters.Log
+ gingFilter.xml,OSGI-INF/com.adobe.aem.guides.john.core.listeners.Simp
+ leResourceListener.xml,OSGI-INF/com.adobe.aem.guides.john.core.schedu
+ lers.SimpleScheduledTask.xml,OSGI-INF/com.adobe.aem.guides.john.core.
+ servlets.SimpleServlet.xml
+Sling-Model-Classes: com.adobe.aem.guides.john.core.models.HelloWorldM
+ odel
+

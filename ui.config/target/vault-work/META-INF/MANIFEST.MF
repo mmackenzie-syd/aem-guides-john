@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Build-Jdk-Spec: 11
+Implementation-Title: john Sites Project - UI config
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.adobe.aem.guides.john:aem-guides-john.ui.config:
+ 0.0.1-SNAPSHOT
+Content-Package-Description: UI config package for john Sites Project
+Content-Package-Roots: /apps/john/osgiconfig
+

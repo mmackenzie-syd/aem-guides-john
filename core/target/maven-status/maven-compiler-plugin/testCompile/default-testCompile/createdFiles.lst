@@ -1,0 +1,4 @@
+com/adobe/aem/guides/john/core/listeners/SimpleResourceListenerTest.class
+com/adobe/aem/guides/john/core/filters/LoggingFilterTest.class
+com/adobe/aem/guides/john/core/servlets/SimpleServletTest.class
+com/adobe/aem/guides/john/core/schedulers/SimpleScheduledTaskTest.class
